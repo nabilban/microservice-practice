@@ -1,5 +1,5 @@
-appName: recomendationservice
-appImage: gcr.io/google-samples/microservices-demo/recomendationservice
+appName: recommendationservice
+appImage: gcr.io/google-samples/microservices-demo/recommendationservice
 appVersion: v0.8.0
 appReplicas: 2
 containerPort: 8080
