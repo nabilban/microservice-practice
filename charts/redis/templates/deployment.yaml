@@ -20,6 +20,6 @@ spec:
           volumeMounts:
             - name: {{ .Values.volumeName }}
               mountPath: {{ .Values.containerMountPath }}
-          volumes:
-            - name: {{ .Values.volumeName }}
-              emptyDir: {}
+      volumes:
+      - name: {{ .Values.volumeName }}
+        emptyDir: {}
