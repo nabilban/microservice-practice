@@ -6,5 +6,9 @@ containerPort: 8080
 containerEnvVars:
   - name: PORT
     value: "8080"
+  - name: DISSABLE_TRACING
+    value: "1"
+  - name: DISSABLE_PROFILER
+    value: "1"
 
 servicePort: 5000
